@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="ua3-rw-A8c">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="cJt-5j-Ckh">
+            <objects>
+                <viewController id="ua3-rw-A8c" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bf8-nN-v71"/>
+                        <viewControllerLayoutGuide type="bottom" id="og7-ae-WTQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fcL-IV-OgE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Your Level" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZGw-hH-agZ">
+                                <rect key="frame" x="201" y="131" width="199" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Curiosities" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vLT-UL-y5n">
+                                <rect key="frame" x="152" y="28" width="296" height="95"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="95" id="YCv-nv-TIY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="65"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.98431372549999996" blue="0.88235294119999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZGw-hH-agZ" firstAttribute="top" secondItem="vLT-UL-y5n" secondAttribute="bottom" constant="8" symbolic="YES" id="IHd-f3-QKd"/>
+                            <constraint firstItem="vLT-UL-y5n" firstAttribute="top" secondItem="bf8-nN-v71" secondAttribute="bottom" constant="8" symbolic="YES" id="b5B-l3-Wrt"/>
+                            <constraint firstItem="vLT-UL-y5n" firstAttribute="centerX" secondItem="fcL-IV-OgE" secondAttribute="centerX" id="gm3-Ku-lPH"/>
+                            <constraint firstItem="vLT-UL-y5n" firstAttribute="centerX" secondItem="ZGw-hH-agZ" secondAttribute="centerX" id="nQi-0q-kh7"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BVE-B7-FRv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2027" y="-141"/>
+        </scene>
+    </scenes>
+</document>
